@@ -1,7 +1,5 @@
 #!/bin/bash
 # This script is used for create virtual hosts on CentOs.
-# Created by alexnogard from http://alexnogard.com
-# Improved by mattmezza from http://you.canmakethat.com
 # Readapted by Dhraax from https://github.com/dhraax
 # Feel free to modify it
 
@@ -29,7 +27,7 @@ chown -R $usr:$usr $dir$servn
 chmod -R '755' $dir$servn
 echo "Web directory created with success!"
 else
-echo "Web directory already Exist!"
+echo "Web directory already Exists!"
 fi
 
 alias=$cname.$servn
